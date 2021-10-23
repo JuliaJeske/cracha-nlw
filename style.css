@@ -18,10 +18,12 @@ body {
 }
 
 /* ======== main ========== */
+
 main {
-  background: url(images/background.png);
-  width: 375px;
-  height: 812px;
+  background: url(images/background.png) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 h1 {
@@ -36,7 +38,7 @@ a {
 
   display: flex;
   gap: 0.75rem;
-  justify-content:center;
+  justify-content: center;
 
   margin-top: 0.25rem;
 }
@@ -87,4 +89,26 @@ ul {
   object-fit: cover;
 
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+/* ======== animacao ========== */
+a>img:hover {
+  filter: invert();
+}
+
+a>img {
+  transition: 0.3s;
+}
+
+/* ======== media ========== */
+@media (min-width: 720px) {
+	/* estilos versão tablet */
+  main {
+     background:url(images/Desktop.png)no-repeat center/cover;
+     width: 100vw;
+     min-height: 812px;
+     height: 100vh;
+  
+  }
+   
 }
