@@ -1,7 +1,7 @@
 
 
 
-## cracha-nlw
+## Cracha-nlw🚀
 <p align="center">Cracha virtual criado na trilha da NLW heat da Rocketseat</p>
 <br/>
 
